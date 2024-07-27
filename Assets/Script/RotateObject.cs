@@ -16,8 +16,8 @@ public class RotateObject : MonoBehaviour
             touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Moved)
             {
-                rotationY = Quaternion.Euler(0f, touch.deltaPosition.x * -rotatespeed, 0f);
-                transform.rotation = rotationY * transform.rotation;
+                rotationY = Quaternion.Euler(0, touch.deltaPosition.x * -rotatespeed, 0f);
+                transform.localRotation = rotationY * transform.localRotation;
             }
         }
     }

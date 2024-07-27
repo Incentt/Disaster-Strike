@@ -193,9 +193,7 @@ GameObject:
   - component: {fileID: 1901611569781034307}
   - component: {fileID: 4539576119638762207}
   - component: {fileID: 6629754459384592408}
-  - component: {fileID: 651290961065048227}
-  - component: {fileID: 8137235622190360718}
-  - component: {fileID: 4453165970503353505}
+  - component: {fileID: 6119787971775915773}
   m_Layer: 0
   m_Name: Eathquake
   m_TagString: Untagged
@@ -247,7 +245,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 4453165970503353505}
+  mPreview: {fileID: 6119787971775915773}
 --- !u!114 &6629754459384592408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,45 +290,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &651290961065048227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2939279971644430186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 4539576119638762207}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Earthquake
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 4539576119638762207}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &8137235622190360718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2939279971644430186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 4539576119638762207}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Earthquake
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 4539576119638762207}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4453165970503353505
+--- !u!114 &6119787971775915773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -378,7 +338,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 9125488549078588038}
   m_Father: {fileID: 1208630970139873275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -585,16 +546,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4703147776756867840}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.66413, y: 0.66413, z: 0.66413}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 469643133271403814}
+  m_Father: {fileID: 2923272190925235722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -90, y: -190}
+  m_AnchoredPosition: {x: -90, y: -90}
   m_SizeDelta: {x: 136, y: 136}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &377553318316044282
@@ -727,7 +688,6 @@ RectTransform:
   - {fileID: 6774935087924866036}
   - {fileID: 3051530407903354551}
   - {fileID: 4418899702288458360}
-  - {fileID: 9125488549078588038}
   m_Father: {fileID: 1901611569781034307}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -855,11 +815,11 @@ RectTransform:
   m_LocalScale: {x: 0.6641, y: 0.6641, z: 0.6641}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1208630970139873275}
+  m_Father: {fileID: 6774935087924866036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -90, y: -190.71999}
+  m_AnchoredPosition: {x: -90, y: -90.719986}
   m_SizeDelta: {x: 136, y: 136}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3412088004471396104
@@ -944,7 +904,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4590698971465515392}
+      - m_Target: {fileID: 3415758783625551934}
         m_TargetAssemblyTypeName: UiToScreen, Assembly-CSharp
         m_MethodName: closeScreen
         m_Mode: 1
@@ -1077,7 +1037,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 385901662306449176, guid: 7c23b9aa94b95ac488df4845438dd981,
+    - targetCorrespondingSourceObject: {fileID: 3120980130612493364, guid: 7c23b9aa94b95ac488df4845438dd981,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2008751449338576433}
@@ -1113,6 +1073,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOnScreen: 0
   closeButton: {fileID: 4703147776756867840}
+--- !u!224 &2923272190925235722 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3120980130612493364, guid: 7c23b9aa94b95ac488df4845438dd981,
+    type: 3}
+  m_PrefabInstance: {fileID: 278799269762554430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4805499110837287447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1204,8 +1170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447e47179219e1349938df5d58726624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magnitude: 0.006
-  frequency: 0.1
+  magnitude: 1
+  frequency: 0.01
 --- !u!4 &4805499110837674135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d356cc49f6322aa4dbdea9ebbe03110c,
