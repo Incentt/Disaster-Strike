@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 770283265128365569}
   - component: {fileID: 7351526878686094944}
   - component: {fileID: 1020252296462621372}
-  - component: {fileID: 6514849310709032593}
+  - component: {fileID: 3312572071274332654}
   m_Layer: 0
   m_Name: WildFire
   m_TagString: Untagged
@@ -1281,11 +1281,11 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: b3f9d7e8659987c40ac263254b85f3e3, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 51893e4bbb58f9146809bf249ccccfc4, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 6514849310709032593}
+  mPreview: {fileID: 3312572071274332654}
 --- !u!114 &1020252296462621372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6514849310709032593
+--- !u!114 &3312572071274332654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3285,6 +3285,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5258454461426865710}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: e91fa0fac941e714e8c4d5709097019f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2053583067306098826, guid: e91fa0fac941e714e8c4d5709097019f,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
@@ -3405,7 +3410,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_Fire_01_Big (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3630983130738417110, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3424,6 +3430,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5258454461426865710}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: e91fa0fac941e714e8c4d5709097019f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2053583067306098826, guid: e91fa0fac941e714e8c4d5709097019f,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
@@ -3544,7 +3555,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_Fire_01_Big (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3630983130738417110, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3563,6 +3575,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5258454461426865710}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: e91fa0fac941e714e8c4d5709097019f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2053583067306098826, guid: e91fa0fac941e714e8c4d5709097019f,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
@@ -3683,7 +3700,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_Fire_01_Big (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3630983130738417110, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3702,6 +3720,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5258454461426865710}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: e91fa0fac941e714e8c4d5709097019f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2053583067306098826, guid: e91fa0fac941e714e8c4d5709097019f,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
@@ -3822,7 +3845,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_Fire_01_Big (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3630983130738417110, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

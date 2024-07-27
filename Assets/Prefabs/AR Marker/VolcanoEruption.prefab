@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6076700577010029212}
   - component: {fileID: 8821870062454204625}
   - component: {fileID: 3255265642500222225}
-  - component: {fileID: 8262232489780299473}
+  - component: {fileID: 2738886303174350205}
   m_Layer: 0
   m_Name: VolcanoEruption
   m_TagString: Untagged
@@ -59,11 +59,11 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: e645d4875f380054b86e1f7cd1a6d05c, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 60c2fa84eb45db54a859b7dbb1d3fda1, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 8262232489780299473}
+  mPreview: {fileID: 2738886303174350205}
 --- !u!114 &3255265642500222225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,7 +108,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8262232489780299473
+--- !u!114 &2738886303174350205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

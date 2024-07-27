@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 1901611569781034307}
   - component: {fileID: 4539576119638762207}
   - component: {fileID: 6629754459384592408}
-  - component: {fileID: 6119787971775915773}
+  - component: {fileID: 8243195014545704678}
   m_Layer: 0
   m_Name: Eathquake
   m_TagString: Untagged
@@ -241,11 +241,11 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 01a0bd1256405f44c850791535c9adfc, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: b26ce6a3e5b21b84884982b5dc718879, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 6119787971775915773}
+  mPreview: {fileID: 8243195014545704678}
 --- !u!114 &6629754459384592408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,7 +290,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6119787971775915773
+--- !u!114 &8243195014545704678
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

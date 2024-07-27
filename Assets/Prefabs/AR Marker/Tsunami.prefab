@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 6916127867384883644}
   - component: {fileID: 2629469568724716424}
   - component: {fileID: 2330802932137151316}
-  - component: {fileID: 8063045015417480951}
+  - component: {fileID: 2810100728828572447}
   m_Layer: 0
   m_Name: Tsunami
   m_TagString: Untagged
@@ -584,7 +584,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 8063045015417480951}
+  mPreview: {fileID: 2810100728828572447}
 --- !u!114 &2330802932137151316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,7 +629,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8063045015417480951
+--- !u!114 &2810100728828572447
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
