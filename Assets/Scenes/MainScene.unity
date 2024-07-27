@@ -179,6 +179,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 93311894}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &93311909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93311891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 93311894}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Wildfire
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 93311894}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &107898250
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +469,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 345332297}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &345332301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345332292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 345332297}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Earthquake
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 345332297}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +644,25 @@ MonoBehaviour:
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
 --- !u!114 &782628385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782628375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 782628382}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tornado
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 782628382}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &782628386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -947,6 +1004,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1985308845}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1985308849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985308836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1985308845}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: VolcanoEruption
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 1985308845}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2016072995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1110,25 @@ MonoBehaviour:
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
 --- !u!114 &2044852160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044852150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2044852157}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tsunami
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 2044852157}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2044852161
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1177,6 +1272,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 93311908}
+    - targetCorrespondingSourceObject: {fileID: 3906673878715045210, guid: 68a8ed8772c1da64a8c9864eca0157c4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 93311909}
   m_SourcePrefab: {fileID: 100100000, guid: 68a8ed8772c1da64a8c9864eca0157c4, type: 3}
 --- !u!1001 &2014573032878849305
 PrefabInstance:
@@ -1279,6 +1378,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1985308848}
+    - targetCorrespondingSourceObject: {fileID: 944232917319057295, guid: e1227241d7ea571419b221a65d2d8a1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1985308849}
   m_SourcePrefab: {fileID: 100100000, guid: e1227241d7ea571419b221a65d2d8a1c, type: 3}
 --- !u!1001 &6710802478724851813
 PrefabInstance:
@@ -1381,6 +1484,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2044852160}
+    - targetCorrespondingSourceObject: {fileID: 7901483845456863451, guid: db38a024287beb347b93d5b452a52caa,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2044852161}
   m_SourcePrefab: {fileID: 100100000, guid: db38a024287beb347b93d5b452a52caa, type: 3}
 --- !u!1001 &7848506242906704315
 PrefabInstance:
@@ -1483,6 +1590,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 345332300}
+    - targetCorrespondingSourceObject: {fileID: 2939279971644430186, guid: 962c9f7fdc92050449d6c5d30639694a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 345332301}
   m_SourcePrefab: {fileID: 100100000, guid: 962c9f7fdc92050449d6c5d30639694a, type: 3}
 --- !u!1001 &7902002569934789743
 PrefabInstance:
@@ -1620,6 +1731,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 782628385}
+    - targetCorrespondingSourceObject: {fileID: 192005464718788755, guid: f5c3cc0c629d20243a0ebc404832689a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 782628386}
   m_SourcePrefab: {fileID: 100100000, guid: f5c3cc0c629d20243a0ebc404832689a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
